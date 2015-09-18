@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="es" ng-app="twitchLayoutApp">
 <head>
 <meta charset="utf-8">
 
@@ -15,12 +15,12 @@
 <![endif]-->
 </head>
 
-<body>
+<body ng-controller="DashboardCtrl">
 <div class="layout-container">
     <div class="game-capture">
         <div class="display container"></div>
-        <h1>Killing Floor 2</h1>
-        <h2>Tomándose fotos con el Husk</h2>
+        <h1>{{ game }}</h1>
+        <h2>{{ status }}</h2>
     </div>
     <div class="chat">
         <div class="display container"></div>
@@ -35,5 +35,7 @@
         <h3>sk</h3>
     </div>
 </div>
+<script src="bower_components/angular/angular.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
