@@ -65,7 +65,12 @@ h3 {
 
 .layout-container {
   width: 1920px;
-  height: 1080px; }
+  height: 1080px;
+  background-image: url("img/city.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: 1920px 1080px;
+  animation: animatedBackground 120s linear infinite; }
 
 .container {
   background-color: rgba(47, 58, 96, 0.6); }
@@ -105,5 +110,11 @@ h3 {
   .webcam .display {
     width: 610px;
     height: 341px; }
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -1920px 0; } }
 
 /*# sourceMappingURL=main.css.map */
