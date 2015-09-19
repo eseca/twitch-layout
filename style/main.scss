@@ -2,6 +2,7 @@
 
 $color-text: #ffffff;
 $color-base: #2f3a60;
+$color-display: rgba(47, 58, 96, 0.6);
 $font_regular: 'Terminus';
 $font_bold: 'Terminus-Bold';
 
@@ -21,7 +22,7 @@ body {
 
 h1, h2, h3 {
     background-color: $color-base;
-    font-family: $font_regular;
+    font-family: $font_bold;
     color: $color-text;
     padding-left: 21px;
 }
@@ -36,7 +37,7 @@ h3 {
 }
 
 .game-capture, .chat, .input, .webcam {
-    display: inline-block;
+    display: block;
     position: absolute;
 }
 
@@ -47,58 +48,72 @@ h3 {
     background-position: center;
     background-repeat: repeat-x;
     background-size: 1920px 1080px;
-	animation: animatedBackground 120s linear infinite;
+    animation: animatedBackground 120s linear infinite;
+    .game-capture {
+        left: 106px;
+        bottom: 438.063px;
+        width: 1102px;
+        height: 620px;
+        .display {
+            width: 1102px;
+            height: 620px;
+        }
+    }
+    .chat {
+        left: 1326.601px;
+        bottom: 511.875px;
+        width: 504px;
+        height: 543px;
+        .display {
+            width: 504px;
+            height: 543px;
+        }
+    }
+    .input {
+        left: 355.028px;
+        bottom: 27.520px;
+        width: 604px;
+        height: 245px;
+        .display {
+            width: 604px;
+            height: 213px;
+        }
+    }
+    .webcam {
+        left: 1224.427px;
+        bottom: 98.600px;
+        width: 610px;
+        height: 341px;
+        .display {
+            width: 610px;
+            height: 341px;
+        }
+    }
 }
 
 .container {
-    background-color: rgba(47, 58, 96, 0.6);
+    background-color: $color-display;
 }
 
-.game-capture {
-    left: 106px;
-    bottom: 438.063px;
-    width: 1102px;
-    height: 620px;
-    .display {
-        width: 1102px;
-        height: 620px;
+
+.fullscreen-layout-container {
+    width: 354.166px;
+    height: 626.265px;
+    .chat, .webcam, .input {
+        width: 354.166px;
     }
-}
-
-.chat {
-    left: 1326.601px;
-    bottom: 511.875px;
-    width: 504px;
-    height: 543px;
-    .display {
-        width: 504px;
-        height: 543px;
+    .chat {
+        bottom: 348.120px;
     }
-}
-
-.input {
-    left: 355.028px;
-    bottom: 27.520px;
-    width: 604px;
-    height: 245px;
-    .display {
-        width: 604px;
-        height: 213px;
+    .webcam {
+        bottom: 153.651px;
     }
-}
-
-.webcam {
-    left: 1224.427px;
-    bottom: 98.600px;
-    width: 610px;
-    height: 341px;
-    .display {
-        width: 610px;
-        height: 341px;
+    .input {
+        bottom: 0px;
     }
 }
 
 @keyframes animatedBackground {
-	0% { background-position: 0 0; }
-	100% { background-position: -1920px 0; }
+    0% { background-position: 0 0; }
+    100% { background-position: -1920px 0; }
 }
