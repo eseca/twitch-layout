@@ -70,7 +70,7 @@ h3 {
   background-position: center;
   background-repeat: repeat-x;
   background-size: 1920px 1080px;
-  animation: animatedBackground 120s linear infinite; }
+  -webkit-animation: animatedBackground 120s linear infinite; }
   .layout-container .game-capture {
     left: 106px;
     bottom: 438.063px;
@@ -119,7 +119,7 @@ h3 {
   .fullscreen-layout-container .input {
     bottom: 0px; }
 
-@keyframes animatedBackground {
+@-webkit-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {

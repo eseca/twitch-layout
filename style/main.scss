@@ -48,7 +48,7 @@ h3 {
     background-position: center;
     background-repeat: repeat-x;
     background-size: 1920px 1080px;
-    animation: animatedBackground 120s linear infinite;
+    -webkit-animation: animatedBackground 120s linear infinite;
     .game-capture {
         left: 106px;
         bottom: 438.063px;
@@ -113,7 +113,7 @@ h3 {
     }
 }
 
-@keyframes animatedBackground {
+@-webkit-keyframes animatedBackground {
     0% { background-position: 0 0; }
     100% { background-position: -1920px 0; }
 }
