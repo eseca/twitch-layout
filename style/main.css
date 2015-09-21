@@ -59,7 +59,7 @@ h2 {
 h3 {
   font-size: 32px; }
 
-.game-capture, .chat, .input, .webcam {
+.game-capture, .chat, .input, .webcam, .splits {
   display: block;
   position: absolute; }
 
@@ -124,5 +124,45 @@ h3 {
     background-position: 0 0; }
   100% {
     background-position: -1920px 0; } }
+.speedrun-layout-container {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("img/city.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: 1920px 1080px;
+  -webkit-animation: animatedBackground 120s linear infinite; }
+  .speedrun-layout-container .game-capture {
+    left: 20px;
+    bottom: 225.792px;
+    width: 1181.690px;
+    height: 834.208px; }
+    .speedrun-layout-container .game-capture .display {
+      width: 1181.690px;
+      height: 834.208px; }
+  .speedrun-layout-container .chat {
+    left: 20px;
+    bottom: 20px;
+    width: 1181.690px;
+    height: 185.021px; }
+    .speedrun-layout-container .chat .display {
+      width: 1181.690px;
+      height: 155.432px; }
+  .speedrun-layout-container .splits {
+    right: 20px;
+    bottom: 414.906px;
+    width: 678.714px;
+    height: 645.094px; }
+    .speedrun-layout-container .splits .display {
+      width: 678.714px;
+      height: 613.094px; }
+  .speedrun-layout-container .webcam {
+    right: 20px;
+    bottom: 20px;
+    width: 678.714px;
+    height: 372.731px; }
+    .speedrun-layout-container .webcam .display {
+      width: 678.714px;
+      height: 341.421px; }
 
 /*# sourceMappingURL=main.css.map */

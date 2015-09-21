@@ -36,7 +36,7 @@ h3 {
     font-size: 32px;
 }
 
-.game-capture, .chat, .input, .webcam {
+.game-capture, .chat, .input, .webcam, .splits {
     display: block;
     position: absolute;
 }
@@ -116,4 +116,54 @@ h3 {
 @-webkit-keyframes animatedBackground {
     0% { background-position: 0 0; }
     100% { background-position: -1920px 0; }
+}
+
+.speedrun-layout-container {
+    width: 1920px;
+    height: 1080px;
+    background-image: url('img/city.jpg');
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 1920px 1080px;
+    -webkit-animation: animatedBackground 120s linear infinite;
+    .game-capture {
+        left: 20px;
+        bottom: 225.792px;
+        width: 1181.690px;
+        height: 834.208px;
+        .display {
+            width: 1181.690px;
+            height: 834.208px;
+        }
+    }
+    .chat {
+        left: 20px;
+        bottom: 20px;
+        width: 1181.690px;
+        height: 185.021px;
+        .display {
+            width: 1181.690px;
+            height: 155.432px;
+        }
+    }
+    .splits {
+        right: 20px;
+        bottom: 414.906px;
+        width: 678.714px;
+        height: 645.094px;
+        .display {
+            width: 678.714px;
+            height: 613.094px;
+        }
+    }
+    .webcam {
+        right: 20px;
+        bottom: 20px;
+        width: 678.714px;
+        height: 372.731px;
+        .display {
+            width: 678.714px;
+            height: 341.421px;
+        }
+    }
 }
