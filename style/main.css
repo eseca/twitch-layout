@@ -171,12 +171,20 @@ h3 {
       height: 155.432px; }
   .speedrun-layout-container .splits {
     right: 20px;
-    bottom: 414.906px;
-    width: 678.714px;
-    height: 645.094px; }
+    top: 20px;
+    width: 681.211px;
+    height: 368.236px; }
     .speedrun-layout-container .splits .display {
-      width: 678.714px;
-      height: 613.094px; }
+      width: 681.211px;
+      height: 336.343px; }
+  .speedrun-layout-container .input {
+    right: 20px;
+    bottom: 414.906px;
+    width: 681.211px;
+    height: 255.601px; }
+    .speedrun-layout-container .input .display {
+      width: 681.211px;
+      height: 223.601px; }
   .speedrun-layout-container .webcam {
     right: 20px;
     bottom: 20px;
