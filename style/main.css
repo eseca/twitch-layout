@@ -50,6 +50,10 @@ h1, h2, h3 {
   color: #ffffff;
   padding-left: 21px; }
 
+p {
+  font-family: "Terminus-Bold";
+  color: #ffffff; }
+
 h1 {
   font-size: 40px; }
 
@@ -73,20 +77,20 @@ h3 {
   -webkit-animation: animatedBackground 120s linear infinite; }
   .dashboard-layout-container .game-capture {
     left: 20px;
-    bottom: 286.027px;
+    top: 20px;
     width: 1192.740px;
     height: 773.973px; }
     .dashboard-layout-container .game-capture .display {
       width: 1192.740px;
       height: 670.202px; }
   .dashboard-layout-container .chat {
-    left: 1230.745px;
-    bottom: 447.080px;
+    right: 20px;
+    top: 20px;
     width: 669.255px;
     height: 615.417px; }
     .dashboard-layout-container .chat .display {
       width: 669.255px;
-      height: 595.417px; }
+      height: 583.417px; }
   .dashboard-layout-container .input {
     left: 20px;
     bottom: 20px;
@@ -94,7 +98,7 @@ h3 {
     height: 245.152px; }
     .dashboard-layout-container .input .display {
       width: 603.687px;
-      height: 225.152px; }
+      height: 213.152px; }
   .dashboard-layout-container .info {
     width: 263.603px;
     height: 110px; }
@@ -104,17 +108,20 @@ h3 {
     .dashboard-layout-container .info.twitter {
       left: 949.137px;
       bottom: 20px; }
+    .dashboard-layout-container .info p {
+      font-size: 48px;
+      text-align: center; }
     .dashboard-layout-container .info .display {
       width: 263.603px;
-      height: 90px; }
+      height: 78px; }
   .dashboard-layout-container .webcam {
-    left: 1230.745px;
+    right: 20px;
     bottom: 20px;
     width: 669.255px;
     height: 410.163px; }
     .dashboard-layout-container .webcam .display {
       width: 669.255px;
-      height: 390.163px; }
+      height: 378.163px; }
 
 .container {
   background-color: rgba(47, 58, 96, 0.6); }

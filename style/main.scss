@@ -26,6 +26,10 @@ h1, h2, h3 {
     color: $color-text;
     padding-left: 21px;
 }
+p {
+    font-family: $font_bold;
+    color: $color-text;
+}
 h1 {
     font-size: 40px;
 }
@@ -51,7 +55,7 @@ h3 {
     -webkit-animation: animatedBackground 120s linear infinite;
     .game-capture {
         left: 20px;
-        bottom: 286.027px;
+        top: 20px;
         width: 1192.740px;
         height: 773.973px;
         .display {
@@ -60,13 +64,13 @@ h3 {
         }
     }
     .chat {
-        left: 1230.745px;
-        bottom: 447.080px;
+        right: 20px;
+        top: 20px;
         width: 669.255px;
         height: 615.417px;
         .display {
             width: 669.255px;
-            height: 595.417px;
+            height: 583.417px;
         }
     }
     .input {
@@ -76,7 +80,7 @@ h3 {
         height: 245.152px;
         .display {
             width: 603.687px;
-            height: 225.152px;
+            height: 213.152px;
         }
     }
     .info {
@@ -90,19 +94,23 @@ h3 {
             left: 949.137px;
             bottom: 20px;
         }
+        p {
+            font-size: 48px;
+            text-align: center;
+        }
         .display {
             width: 263.603px;
-            height: 90px;
+            height: 78px;
         }
     }
     .webcam {
-        left: 1230.745px;
+        right: 20px;
         bottom: 20px;
         width: 669.255px;
         height: 410.163px;
         .display {
             width: 669.255px;
-            height: 390.163px;
+            height: 378.163px;
         }
     }
 }
