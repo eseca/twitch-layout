@@ -42,7 +42,8 @@ table {
   font-family: "Terminus-Bold";
   src: url(fonts/TerminusTTF-Bold-4.39.ttf); }
 body {
-  background-color: transparent; }
+  background-color: transparent;
+  overflow: hidden; }
 
 h1, h2, h3 {
   background-color: #2f3a60;
@@ -130,15 +131,13 @@ h3 {
   background-color: rgba(47, 58, 96, 0.6); }
 
 .fullscreen-layout-container {
-  width: 354.166px;
-  height: 626.265px; }
+  width: 354px;
+  height: 488px; }
   .fullscreen-layout-container .chat, .fullscreen-layout-container .webcam, .fullscreen-layout-container .input {
-    width: 354.166px; }
+    width: 100%; }
   .fullscreen-layout-container .chat {
-    bottom: 348.120px; }
+    bottom: 223px; }
   .fullscreen-layout-container .webcam {
-    bottom: 153.651px; }
-  .fullscreen-layout-container .input {
     bottom: 0px; }
 
 @-webkit-keyframes animatedBackground {

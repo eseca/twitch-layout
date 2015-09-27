@@ -18,6 +18,7 @@ $font_bold: 'Terminus-Bold';
 
 body {
     background-color: transparent;
+    overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -124,18 +125,15 @@ h3 {
 
 
 .fullscreen-layout-container {
-    width: 354.166px;
-    height: 626.265px;
+    width: 354px;
+    height: 488px;
     .chat, .webcam, .input {
-        width: 354.166px;
+        width: 100%;
     }
     .chat {
-        bottom: 348.120px;
+        bottom: 223px;
     }
     .webcam {
-        bottom: 153.651px;
-    }
-    .input {
         bottom: 0px;
     }
 }
