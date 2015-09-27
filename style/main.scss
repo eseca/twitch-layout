@@ -36,12 +36,12 @@ h3 {
     font-size: 32px;
 }
 
-.game-capture, .chat, .input, .webcam, .splits {
+.game-capture, .chat, .input, .webcam, .splits, .info {
     display: block;
     position: absolute;
 }
 
-.layout-container {
+.dashboard-layout-container {
     width: 1920px;
     height: 1080px;
     background-image: url('img/city.jpg');
@@ -50,43 +50,59 @@ h3 {
     background-size: 1920px 1080px;
     -webkit-animation: animatedBackground 120s linear infinite;
     .game-capture {
-        left: 106px;
-        bottom: 438.063px;
-        width: 1102px;
-        height: 620px;
+        left: 20px;
+        bottom: 286.027px;
+        width: 1192.740px;
+        height: 773.973px;
         .display {
-            width: 1102px;
-            height: 620px;
+            width: 1192.740px;
+            height: 670.202px;
         }
     }
     .chat {
-        left: 1326.601px;
-        bottom: 511.875px;
-        width: 504px;
-        height: 543px;
+        left: 1230.745px;
+        bottom: 447.080px;
+        width: 669.255px;
+        height: 615.417px;
         .display {
-            width: 504px;
-            height: 543px;
+            width: 669.255px;
+            height: 595.417px;
         }
     }
     .input {
-        left: 355.028px;
-        bottom: 27.520px;
-        width: 604px;
-        height: 245px;
+        left: 20px;
+        bottom: 20px;
+        width: 603.687px;
+        height: 245.152px;
         .display {
-            width: 604px;
-            height: 213px;
+            width: 603.687px;
+            height: 225.152px;
+        }
+    }
+    .info {
+        width: 263.603px;
+        height: 110px;
+        &.timeup {
+            left: 949.137px;
+            bottom: 155.152px;
+        }
+        &.twitter {
+            left: 949.137px;
+            bottom: 20px;
+        }
+        .display {
+            width: 263.603px;
+            height: 90px;
         }
     }
     .webcam {
-        left: 1224.427px;
-        bottom: 98.600px;
-        width: 610px;
-        height: 341px;
+        left: 1230.745px;
+        bottom: 20px;
+        width: 669.255px;
+        height: 410.163px;
         .display {
-            width: 610px;
-            height: 341px;
+            width: 669.255px;
+            height: 390.163px;
         }
     }
 }

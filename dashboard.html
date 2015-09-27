@@ -16,7 +16,7 @@
 </head>
 
 <body ng-controller="DashboardCtrl">
-<div class="layout-container">
+<div class="dashboard-layout-container">
     <div class="game-capture">
         <div class="display container"></div>
         <h1>{{ game }}</h1>
@@ -29,6 +29,18 @@
     <div class="input">
         <div class="display container"></div>
         <h3>sk::input</h3>
+    </div>
+    <div class="timeup info">
+        <div class="display container">
+            <p>{{ timeup }}</p>
+        </div>
+        <h3>en vivo</h3>
+    </div>
+    <div class="twitter info">
+        <div class="display container">
+            <p>@eseca</p>
+        </div>
+        <h3>twitter</h3>
     </div>
     <div class="webcam">
         <div class="display container"></div>
