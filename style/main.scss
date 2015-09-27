@@ -97,6 +97,9 @@ h3 {
         p {
             font-size: 48px;
             text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
         }
         .display {
             width: 263.603px;

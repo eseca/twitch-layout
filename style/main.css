@@ -110,7 +110,10 @@ h3 {
       bottom: 20px; }
     .dashboard-layout-container .info p {
       font-size: 48px;
-      text-align: center; }
+      text-align: center;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
     .dashboard-layout-container .info .display {
       width: 263.603px;
       height: 78px; }
