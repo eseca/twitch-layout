@@ -143,6 +143,8 @@ h3 {
     100% { background-position: -1920px 0; }
 }
 
+$left_column_width: 528.094px;
+
 .speedrun-layout-container {
     width: 1920px;
     height: 1080px;
@@ -153,52 +155,32 @@ h3 {
     -webkit-animation: animatedBackground 120s linear infinite;
     .game-capture {
         left: 20px;
-        bottom: 225.792px;
-        width: 1181.690px;
-        height: 834.208px;
-        .display {
-            width: 1181.690px;
-            height: 834.208px;
-        }
+        top: 20px;
+        width: 1333.719px;
+        height: 853.344px;
     }
     .chat {
         left: 20px;
         bottom: 20px;
-        width: 1181.690px;
-        height: 185.021px;
-        .display {
-            width: 1181.690px;
-            height: 155.432px;
-        }
+        width: 1333.719px;
+        height: 168.844px;
     }
     .splits {
         right: 20px;
-        top: 20px;
-        width: 681.211px;
-        height: 368.236px;
-        .display {
-            width: 681.211px;
-            height: 336.343px;
-        }
+        bottom: 20px;
+        width: $left_column_width;
+        height: 434.406px;
     }
     .input {
         right: 20px;
-        bottom: 414.906px;
-        width: 681.211px;
+        bottom: 473.188px;
+        width: $left_column_width;
         height: 255.601px;
-        .display {
-            width: 681.211px;
-            height: 223.601px;
-        }
     }
     .webcam {
         right: 20px;
-        bottom: 20px;
-        width: 678.714px;
-        height: 372.731px;
-        .display {
-            width: 678.714px;
-            height: 341.421px;
-        }
+        top: 20px;
+        width: $left_column_width;
+        height: 314.688px;
     }
 }
